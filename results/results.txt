@@ -1,0 +1,33 @@
+Hello,
+(A brief documentation)
+I would like to let you know the terminology I used to save the data.
+
+Pa is the used for PIV data to save the phases from Phase#1 to  Phase#12, when the experimantal and theoritical data points coincides or seems much closer to each other.
+The corrosponsing plot is saved as Phase_a_(1-12).pdf
+Pb is the used for PIV data to save the phases from Phase#1 to  Phase#12, when the experimantal and theoritical data points #DO NOT# coincides .
+The corrosponsing plot is saved as Phase_b_(1-12).pdf
+
+Similarly,
+Pc  is the used for PIV data to save the phases from Phase#13 to  Phase#25, when the experimantal and theoritical data points coincides or seems much closer to each other.
+The corrosponsing plot is saved as Phase_c_(13-25).pdf
+Pd is the used for PIV data to save the phases from Phase#13 to  Phase#25, when the experimantal and theoritical data points #DO NOT# coincides .
+The corrosponsing plot is saved as Phase_d_(13-25).pdf
+
+=============================================================================================
+For LDA 
+I have just plotted the Phase#1 to Phase#10, for the two following cases:
+A. When  the experimantal and theoritical data points coincides or seems much closer to each other.
+The corrosponsing plot is saved as LDA_A.pdf
+B. When  the experimantal and theoritical data points #DOES NOT# coincides.
+The corrosponsing plot is saved as LDA_B.pdf
+Also for LDA data,the plot for the entire cases mean to say from Phase#1 to Phase#20 has be plotted as LDA.png
+The data file is being named as datas.dat
+Data is being arranged as first coloumn Phases(1-20) and next to it the value of Viscous Penetration depth for six different cases of Reynold's number. 
+=============================================================================================
+For PIV data, the plot for the entire cases mean to say from Phase#1 to Phase#25 has be plotted as PIV_ENTIRE_CASE.png
+The plot has been zoom to extract the possible insight from the data, hence it has been zoomed in two regions.
+[i]  In range (0.4 pi radian to 1 pi radian) plot has been zoomed and plotted as PIV_R1.png
+[ii] In range (1.4 pi radian to 2 pi radian) plot has been zoomed and plotted as PIV_R1.png
+The data file is being named as pivdatas.txt
+Data is being arranged as first coloumn Phases(1-25) and next to it the value of Viscous Penetration depth similarly Phases and Visc.Pentr. Depth for each nine cases of Reynold's number.
+
